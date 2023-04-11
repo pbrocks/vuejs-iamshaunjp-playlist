@@ -38,8 +38,9 @@ export default {
 </script>
 
 <style>
-body{
-    margin: 0;
-    font-family: 'Nunito SemiBold';
-}
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+  body{
+      margin: 0;
+      font-family: 'Nunito';
+  }
 </style>
