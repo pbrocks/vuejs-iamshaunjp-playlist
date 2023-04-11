@@ -9,12 +9,12 @@
 export default {
     data () {
         return {
-          title: 'Your first Vue file, wooo!'
+          title: 'Your first Vue file, woohoo!'
         }
     },
     methods: {
         greeting: function(){
-            return 'heeey cowboy'
+            return 'heeyaaahh cowboy'
         }
     }
 }
