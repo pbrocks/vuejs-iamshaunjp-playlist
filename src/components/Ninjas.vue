@@ -1,11 +1,13 @@
 <template>
     <div id="ninjas">
+        <p>Ninjas.vue:3</p>
         <ul>
             <li v-for="ninja in ninjas" v-on:click="ninja.show = !ninja.show">
                 <h2>{{ ninja.name }}</h2>
                 <h3 v-show="ninja.show">{{ ninja.speciality }}</h3>
             </li>
         </ul>
+        <p>Ninjas.vue:10</p>
         <button v-on:click="deleteNinja">Delete a Ninja</button>
     </div>
 </template>

@@ -1,11 +1,14 @@
 <template>
     <div>
-        <app-header v-bind:title="title"></app-header>
-        <app-ninjas v-bind:ninjas="ninjas"></app-ninjas>
+        <app-header :title="title"></app-header>
+        <p>App.vue:4</p>
+        <app-ninjas :ninjas="ninjas"></app-ninjas>
+        <p>App.vue:6</p>
         <ul>
           <li v-for="ninja in ninjas">{{ ninja.name }}</li>
         </ul>
-        <app-footer v-bind:title="title"></app-footer>
+        <p>App.vue:10</p>
+        <app-footer :title="title"></app-footer>
     </div>
 </template>
 
